@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .clock {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 10px solid #333;
+    border-radius: 50%;
+  }
+  
+  .hand {
+    position:absolute;
+    background: #333;
+    transform-origin: 50% 100%;
+  }
+  
+  #hour {
+    height: 40px;
+    width: 8px;
+  }
+  
+  #minute {
+    height: 60px;
+    width: 6px;
+  }
+  
+  #second {
+    height: 80px;
+    width: 2px;
+  }
+  
